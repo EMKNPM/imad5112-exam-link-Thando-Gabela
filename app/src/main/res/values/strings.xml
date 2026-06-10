@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CampsiteCommander</string>
+    <string name="back_to_base">Back to Base</string>
+    <string name="full_gear_list">Full Gear List</string>
 </resources>

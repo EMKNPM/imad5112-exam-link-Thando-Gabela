@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         // Log to confirm splash loaded
         android.util.Log.d("CampsiteCommander", "Splash screen loaded")
 
-        // Wait 3 seconds then move to GearActivity
+        // Wait 3 seconds then move to GearActivity imma kms
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, GearActivity::class.java)
             startActivity(intent)
