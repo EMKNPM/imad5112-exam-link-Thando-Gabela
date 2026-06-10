@@ -2,35 +2,64 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1B2B1B"
+    android:background="#0D1F0D"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="24dp">
+    android:padding="32dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="🏕️ Campsite Commander"
+        android:text="🏕️"
+        android:textSize="60sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campsite Commander"
         android:textColor="#FF69B4"
-        android:textSize="28sp"
+        android:textSize="32sp"
         android:textStyle="bold"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="4dp"/>
 
     <TextView
-        android:id="@+id/totalItemsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Total Items Packed: 0"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:layout_marginBottom="32dp"/>
+        android:text="✨ Pack smart. Camp happy. ✨"
+        android:textColor="#FFB6C1"
+        android:textSize="14sp"
+        android:layout_marginBottom="40dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="#1F3320"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextView
+            android:id="@+id/totalItemsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎒 Total Items Packed: 0"
+            android:textColor="#FF69B4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="24dp"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/viewListButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="View Full Gear List"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🌲 View Full Gear List 🌲"
         android:backgroundTint="#FF69B4"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
 
 </LinearLayout>

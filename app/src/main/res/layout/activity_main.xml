@@ -10,7 +10,7 @@
         android:layout_height="200dp"
         android:layout_centerInParent="true"
         android:layout_above="@+id/appTitle"
-        android:src="@mipmap/ic_launcher"/>
+        android:src="@drawable/pic"/>
 
     <TextView
         android:id="@+id/appTitle"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/appTitle"
         android:layout_centerHorizontal="true"
-        android:text="Pack smart. Camp happy."
+        android:text="Pack smart. Camp happy. 🌲"
         android:textColor="#FFFFFF"
         android:textSize="14sp"/>
 
