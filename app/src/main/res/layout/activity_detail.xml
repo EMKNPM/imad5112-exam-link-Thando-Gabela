@@ -2,34 +2,46 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1B2B1B"
-    android:gravity="center_horizontal"
+    android:background="#0D1F0D"
     android:orientation="vertical"
     android:padding="24dp">
 
     <TextView
-        android:layout_width="163dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="@string/full_gear_list"
+        android:text="🌲 Full Gear List 🌲"
         android:textColor="#FF69B4"
-        android:textSize="26sp"
-        android:textStyle="bold" />
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/everything_you_need_commander"
+        android:textColor="#FFB6C1"
+        android:textSize="13sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"/>
 
     <TextView
         android:id="@+id/gearListText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
         android:textColor="#FFFFFF"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginBottom="32dp"/>
 
     <Button
         android:id="@+id/backButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/back_to_basee"
         android:backgroundTint="#FF69B4"
-        android:text="@string/back_to_base"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
 
 </LinearLayout>

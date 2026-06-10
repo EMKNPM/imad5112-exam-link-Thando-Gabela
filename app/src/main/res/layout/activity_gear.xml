@@ -10,14 +10,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="🏕️"
+        android:text="@string/tent"
         android:textSize="60sp"
         android:layout_marginBottom="8dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Campsite Commander"
+        android:text="@string/campsite_commander"
         android:textColor="#FF69B4"
         android:textSize="32sp"
         android:textStyle="bold"
@@ -26,7 +26,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="✨ Pack smart. Camp happy. ✨"
+        android:text="@string/pack_smart_camp_happy"
         android:textColor="#FFB6C1"
         android:textSize="14sp"
         android:layout_marginBottom="40dp"/>
@@ -43,7 +43,7 @@
             android:id="@+id/totalItemsText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="🎒 Total Items Packed: 0"
+            android:text="@string/total_items_packed_0"
             android:textColor="#FF69B4"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -56,7 +56,7 @@
         android:id="@+id/viewListButton"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="🌲 View Full Gear List 🌲"
+        android:text="@string/view_full_gear_list"
         android:backgroundTint="#FF69B4"
         android:textColor="#FFFFFF"
         android:textSize="16sp"

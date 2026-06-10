@@ -2,4 +2,11 @@
     <string name="app_name">CampsiteCommander</string>
     <string name="back_to_base">Back to Base</string>
     <string name="full_gear_list">Full Gear List</string>
+    <string name="tent">🏕️</string>
+    <string name="campsite_commander">Campsite Commander</string>
+    <string name="pack_smart_camp_happy">✨ Pack smart. Camp happy. ✨</string>
+    <string name="total_items_packed_0">🎒 Total Items Packed: 0</string>
+    <string name="view_full_gear_list">🌲 View Full Gear List 🌲</string>
+    <string name="everything_you_need_commander">✨ Everything you need, commander! ✨</string>
+    <string name="back_to_basee">🏕️ Back to Base 🏕️</string>
 </resources>
