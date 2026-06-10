@@ -1,20 +1,26 @@
 package com.example.campsitecommander
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.os.Handler
+import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
+// Splash screen - shows for 3 seconds then navigates to GearActivity
+// AI assisted with structure - disclosed per exam rules
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+
+        // Log to confirm splash loaded
+        android.util.Log.d("CampsiteCommander", "Splash screen loaded")
+
+        // Wait 3 seconds then move to GearActivity
+        Handler(Looper.getMainLooper()).postDelayed({
+            val intent = Intent(this, GearActivity::class.java)
+            startActivity(intent)
+            finish()
+        }, 3000)
     }
 }
